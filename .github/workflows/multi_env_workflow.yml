@@ -6,6 +6,10 @@ on:
       - main 
     # paths:
     #   - TailwindTraders.Website/Source/**   
+permissions:
+      id-token: write
+      contents: read
+      
 
 env:
 
